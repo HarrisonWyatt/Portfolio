@@ -62,7 +62,7 @@ export default function PortfolioHomePage() {
               I build websites, software, and practical digital solutions.
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-8 text-slate-300">
-              Welcome to my portfolio. This site showcases the projects I have built,
+              Welcome to my work in progress portfolio. This site showcases the projects I have built,
               the problems I like solving, and the skills I use across development,
               design, and technical work.
             </p>
@@ -151,18 +151,17 @@ export default function PortfolioHomePage() {
           <div className="rounded-3xl border border-sky-400/20 bg-sky-500/10 p-8 md:p-12">
             <h2 className="text-3xl font-bold">Let’s work together</h2>
             <p className="mt-4 max-w-2xl leading-8 text-slate-300">
-              Looking for a developer to build a website, software solution, or custom
-              project? Get in touch and let’s talk about what you need.
+        
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
-                href="mailto:your@email.com"
+                href="mailto:itsharrisonwyatt@gmail.com"
                 className="rounded-2xl bg-sky-500 px-6 py-3 font-semibold text-slate-950 transition hover:scale-[1.02]"
               >
                 Email Me
               </a>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/harrisonwyatt"
                 className="rounded-2xl border border-white/15 px-6 py-3 font-semibold text-white transition hover:bg-white/5"
               >
                 GitHub
