@@ -4,28 +4,28 @@ export default function PortfolioHomePage() {
       title: 'Websites',
       description:
         'Responsive websites, landing pages, business sites, and front-end builds.',
-      link: '#websites',
+      link: '/websites',
       emoji: '🌐',
     },
     {
       title: 'Software',
       description:
         'Apps, tools, full-stack platforms, and problem-solving projects.',
-      link: '#software',
+      link: '/software',
       emoji: '💻',
     },
     {
-      title: 'UI / UX',
+      title: 'Cloud',
       description:
-        'Interfaces, layouts, and design-focused builds that balance usability and style.',
-      link: '#uiux',
+        'Basics and fundamentals of cloud computing',
+      link: '/cloud',
       emoji: '🎨',
     },
     {
       title: 'Cyber / Security',
       description:
         'Security labs, network projects, monitoring, and technical investigations.',
-      link: '#security',
+      link: '/security',
       emoji: '🛡️',
     },
   ];
