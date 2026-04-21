@@ -102,14 +102,14 @@ export default function PortfolioHomePage() {
         </section>
 
         <section id="projects" className="mx-auto max-w-7xl px-6 py-16">
-          <div className="mb-10">
+          <div className="mb-10 text-center max-w-2xl mx-auto">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-400">
               Project Categories
             </p>
             <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
               Explore my work by project type
             </h2>
-            <p className="mt-4 max-w-2xl text-slate-300">
+            <p className="mt-4 text-slate-300">
               Choose a category below to highlight the kind of work you want people to
               see first.
             </p>
@@ -136,14 +136,16 @@ export default function PortfolioHomePage() {
         </section>
 
         <section id="about" className="mx-auto max-w-7xl px-6 py-16">
-          <div className="rounded-3xl border border-white/10 bg-white/5 p-8 md:p-12">
-            <h2 className="text-3xl font-bold">About Me</h2>
-            <p className="mt-4 max-w-3xl leading-8 text-slate-300">
-              I enjoy building practical, polished projects that solve real problems.
-              My work includes web development, software projects, technical problem
-              solving, and security-focused work. This portfolio is a place to show
-              what I have built and how I approach each challenge.
-            </p>
+          <div className="rounded-3xl border border-white/10 bg-white/5 p-8 md:p-12 text-center">
+            <div className="max-w-3xl mx-auto">
+              <h2 className="text-3xl font-bold">About Me</h2>
+              <p className="mt-4 leading-8 text-slate-300">
+                I enjoy building practical, polished projects that solve real problems.
+                My work includes web development, software projects, technical problem
+                solving, and security-focused work. This portfolio is a place to show
+                what I have built and how I approach each challenge.
+              </p>
+            </div>
           </div>
         </section>
 
@@ -156,13 +158,13 @@ export default function PortfolioHomePage() {
             <div className="mt-8 flex flex-wrap gap-4">
               <a
                 href="mailto:itsharrisonwyatt@gmail.com"
-                className="rounded-2xl bg-sky-500 px-6 py-3 font-semibold text-slate-950 transition hover:scale-[1.02]"
+                className="rounded-2xl mx-auto bg-sky-500 px-6 py-3 font-semibold text-slate-950 transition hover:scale-[1.02]"
               >
                 Email Me
               </a>
               <a
                 href="https://github.com/harrisonwyatt"
-                className="rounded-2xl border border-white/15 px-6 py-3 font-semibold text-white transition hover:bg-white/5"
+                className="rounded-2xl mx-auto border border-white/15 px-6 py-3 font-semibold text-white transition hover:bg-white/5"
               >
                 GitHub
               </a>
